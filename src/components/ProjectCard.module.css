@@ -1,0 +1,14 @@
+/* src/components/ProjectCard.module.css */
+.project-card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-img-top {
+    height: 200px; /* Set a fixed height for the image */
+    object-fit: cover;
+  }
+  
