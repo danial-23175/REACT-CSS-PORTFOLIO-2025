@@ -1,7 +1,7 @@
-// context/AppContext.js
+
 import { createContext, useContext, useState } from 'react';
 
-// PageTitleContext
+
 const PageTitleContext = createContext();
 export function usePageTitle() {
   return useContext(PageTitleContext);
@@ -16,7 +16,7 @@ export function PageTitleProvider({ children }) {
   );
 }
 
-// ThemeContext
+
 const ThemeContext = createContext();
 export function useTheme() {
   return useContext(ThemeContext);
