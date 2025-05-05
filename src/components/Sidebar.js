@@ -1,6 +1,6 @@
 import React from 'react';
 import profilePic from '../assets/images/profile.jpg';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';  // in src/index.js or App.js
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';  
 
 
 const Sidebar = () => {
