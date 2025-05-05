@@ -1,6 +1,6 @@
-// src/components/ProjectCard.js
+
 import React from 'react';
-import './ProjectCard.module.css';  // Import the CSS module
+import './ProjectCard.module.css';  
 
 const ProjectCard = ({ image, title }) => {
   return (
@@ -13,5 +13,5 @@ const ProjectCard = ({ image, title }) => {
   );
 };
 
-// Export the component correctly
+
 export default ProjectCard;
