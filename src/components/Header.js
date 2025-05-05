@@ -2,14 +2,15 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false); // State for sidebar visibility
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false); 
+  
 
-  // Function to toggle sidebar
+
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
   };
 
-  // Function to close sidebar when a link is clicked
+  
   const closeSidebar = () => {
     setIsSidebarOpen(false);
   };
@@ -39,10 +40,11 @@ const Header = () => {
           <button
             type="button"
             className="btn-close"
-            onClick={toggleSidebar} // Close the sidebar
+            onClick={toggleSidebar} 
             aria-label="Close"
           />
         </div>
+              
         <div className="offcanvas-body">
           <nav className="nav flex-column">
             <Link className="nav-link text-white" to="#home" onClick={closeSidebar}>Home</Link>
