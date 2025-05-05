@@ -1,4 +1,4 @@
-// src/pages/Home.js
+
 import React from 'react';
 
 const Home = () => {
@@ -11,6 +11,7 @@ const Home = () => {
           href="https://www.linkedin.com/in/danial-shakeel/"
           target="_blank"
           rel="noopener noreferrer"
+  
           className="btn btn-primary btn-lg mt-3"
         >
           Click Here to visit my Linkdin and Past work
