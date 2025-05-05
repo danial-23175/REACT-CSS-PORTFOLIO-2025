@@ -1,4 +1,4 @@
-// src/pages/Projects.js
+
 import React from 'react';
 import ProjectCard from '../components/ProjectCard'; 
 import project1 from '../assets/images/project1.jpg';
